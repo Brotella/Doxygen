@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classstack">
+<title>stack class Reference</title>
+<para>
+    <programlisting>#include <link linkend="stack_8h">&lt;stack.h&gt;</link></programlisting>
+</para>
+        <section>
+            <title>Закрытые данные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>std::size_t size_</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int * data_</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int head_</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classstack_1a883b3934243189868d3be2aab9e77467">stack</link> (
+const std::size_t )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classstack_1a6664e76c4bdc9b907e41e458d4324603">stack</link> (
+const <link linkend="classstack">stack</link> &amp; )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classstack_1ade392bac3add71c939bf6cb072c0d6e5">add</link> (
+const int )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classstack_1a6148ebb4f06cca441207c9ca35a64389">del</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classstack_1ab833ba6c5d70b213ca41e52281e43247">get</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classstack_1ae20e5d415f840f36862007e95a1dcbe7">~stack</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Класс - стек </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+
+<para>Данный класс описывает методы структуры данных - стек </para>
+                <para>Definition at line 19 of file stack.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>stack.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Данные класса</title>
+            <simplesect>
+                <title>std::size_t stack::size_</title>                
+<para>Размер стека </para>
+
+                <para>Definition at line 56 of file stack.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>stack.h</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>int* stack::data_</title>                
+<para>Массив под стек </para>
+
+                <para>Definition at line 57 of file stack.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>stack.h</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>int stack::head_</title>                
+<para>Индекс верхнего элемента стека </para>
+
+                <para>Definition at line 58 of file stack.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>stack.h</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="classstack_1a883b3934243189868d3be2aab9e77467">
+                <title>stack::stack (const std::size_t=100)</title> <emphasis></emphasis>
+                
+<para>Конструктор класса по - умолчанию. Начальный размер стека - 100 элементов 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>size</entry>
+                                <entry>
+<para>Размер стека </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classstack_1a6664e76c4bdc9b907e41e458d4324603">
+                <title>stack::stack (const stack &amp;)</title> <emphasis></emphasis>
+                
+<para>Конструктор копирования 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>copy</entry>
+                                <entry>
+<para>Копируемый объект </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classstack_1ade392bac3add71c939bf6cb072c0d6e5">
+                <title>void stack::add (const int)</title> <emphasis></emphasis>
+                
+<para>Добавляет элемент в стек 
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>data</entry>
+                                <entry>
+<para>Значение нового элемента </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="classstack_1a6148ebb4f06cca441207c9ca35a64389">
+                <title>void stack::del ()</title> <emphasis></emphasis>
+                
+<para>Удаляет элемент из стека </para>
+
+            </section>
+            <section xml:id="classstack_1ab833ba6c5d70b213ca41e52281e43247">
+                <title>int stack::get () const </title> <emphasis></emphasis>
+                
+<para>Получение верхнего элемента стека <formalpara><title>Возвращает: </title>
+
+<para>Значение верхного элемента стека </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classstack_1ae20e5d415f840f36862007e95a1dcbe7">
+                <title>stack::~stack ()</title> <emphasis></emphasis>
+                
+<para>Деструктор класса. Освобождает память от массива элементов. </para>
+
+            </section>
+</section>

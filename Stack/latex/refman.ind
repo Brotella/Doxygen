@@ -1,0 +1,31 @@
+\begin{theindex}
+
+  \item {$\sim$stack}
+    \subitem {stack}, \hyperpage{6}
+
+  \indexspace
+
+  \item {add}
+    \subitem {stack}, \hyperpage{6}
+
+  \indexspace
+
+  \item {del}
+    \subitem {stack}, \hyperpage{6}
+
+  \indexspace
+
+  \item {get}
+    \subitem {stack}, \hyperpage{6}
+
+  \indexspace
+
+  \item {stack}, \hyperpage{5}
+    \subitem {$\sim$stack}, \hyperpage{6}
+    \subitem {add}, \hyperpage{6}
+    \subitem {del}, \hyperpage{6}
+    \subitem {get}, \hyperpage{6}
+    \subitem {stack}, \hyperpage{5}
+  \item {stack.\+h}, \hyperpage{7}
+
+\end{theindex}

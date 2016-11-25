@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="stack_8h">
+    <title>stack.h File Reference</title>
+    <programlisting>#include &lt;iostream&gt;</programlisting>
+        <section>
+            <title> Классы </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="classstack">stack</link></para>
+<para><emphasis>Класс - стек</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Подробное описание</title>
+
+<para>Заголовочный файл с описанием класса </para>
+
+<para>Данный файл содержит в себе определение класса структуры данных - стек </para>
+    <para>Definition in file /home/ilya/Stack/stack.h</para>
+    </simplesect>
+</section>

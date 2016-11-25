@@ -1,0 +1,102 @@
+\hypertarget{classstack}{}\section{Класс stack}
+\label{classstack}\index{stack@{stack}}
+
+
+Класс -\/ стек  
+
+
+
+
+{\ttfamily \#include $<$stack.\+h$>$}
+
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classstack_a883b3934243189868d3be2aab9e77467}{stack} (const std\+::size\+\_\+t=100)
+\item 
+\hyperlink{classstack_a6664e76c4bdc9b907e41e458d4324603}{stack} (const \hyperlink{classstack}{stack} \&)
+\item 
+void \hyperlink{classstack_ade392bac3add71c939bf6cb072c0d6e5}{add} (const int)
+\item 
+void \hyperlink{classstack_a6148ebb4f06cca441207c9ca35a64389}{del} ()
+\item 
+int \hyperlink{classstack_ab833ba6c5d70b213ca41e52281e43247}{get} () const 
+\item 
+\hyperlink{classstack_ae20e5d415f840f36862007e95a1dcbe7}{$\sim$stack} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Класс -\/ стек 
+
+Данный класс описывает методы структуры данных -\/ стек 
+
+\subsection{Конструктор(ы)}
+\index{stack@{stack}!stack@{stack}}
+\index{stack@{stack}!stack@{stack}}
+\subsubsection[{\texorpdfstring{stack(const std\+::size\+\_\+t=100)}{stack(const std::size_t=100)}}]{\setlength{\rightskip}{0pt plus 5cm}stack\+::stack (
+\begin{DoxyParamCaption}
+\item[{const std\+::size\+\_\+t}]{ = {\ttfamily 100}}
+\end{DoxyParamCaption}
+)}\hypertarget{classstack_a883b3934243189868d3be2aab9e77467}{}\label{classstack_a883b3934243189868d3be2aab9e77467}
+Конструктор класса по -\/ умолчанию. Начальный размер стека -\/ 100 элементов 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em size} & Размер стека \\
+\hline
+\end{DoxyParams}
+\index{stack@{stack}!stack@{stack}}
+\index{stack@{stack}!stack@{stack}}
+\subsubsection[{\texorpdfstring{stack(const stack \&)}{stack(const stack &)}}]{\setlength{\rightskip}{0pt plus 5cm}stack\+::stack (
+\begin{DoxyParamCaption}
+\item[{const {\bf stack} \&}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{classstack_a6664e76c4bdc9b907e41e458d4324603}{}\label{classstack_a6664e76c4bdc9b907e41e458d4324603}
+Конструктор копирования 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em copy} & Копируемый объект \\
+\hline
+\end{DoxyParams}
+\index{stack@{stack}!````~stack@{$\sim$stack}}
+\index{````~stack@{$\sim$stack}!stack@{stack}}
+\subsubsection[{\texorpdfstring{$\sim$stack()}{~stack()}}]{\setlength{\rightskip}{0pt plus 5cm}stack\+::$\sim$stack (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classstack_ae20e5d415f840f36862007e95a1dcbe7}{}\label{classstack_ae20e5d415f840f36862007e95a1dcbe7}
+Деструктор класса. Освобождает память от массива элементов. 
+
+\subsection{Методы}
+\index{stack@{stack}!add@{add}}
+\index{add@{add}!stack@{stack}}
+\subsubsection[{\texorpdfstring{add(const int)}{add(const int)}}]{\setlength{\rightskip}{0pt plus 5cm}void stack\+::add (
+\begin{DoxyParamCaption}
+\item[{const int}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{classstack_ade392bac3add71c939bf6cb072c0d6e5}{}\label{classstack_ade392bac3add71c939bf6cb072c0d6e5}
+Добавляет элемент в стек 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em data} & Значение нового элемента \\
+\hline
+\end{DoxyParams}
+\index{stack@{stack}!del@{del}}
+\index{del@{del}!stack@{stack}}
+\subsubsection[{\texorpdfstring{del()}{del()}}]{\setlength{\rightskip}{0pt plus 5cm}void stack\+::del (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classstack_a6148ebb4f06cca441207c9ca35a64389}{}\label{classstack_a6148ebb4f06cca441207c9ca35a64389}
+Удаляет элемент из стека \index{stack@{stack}!get@{get}}
+\index{get@{get}!stack@{stack}}
+\subsubsection[{\texorpdfstring{get() const }{get() const }}]{\setlength{\rightskip}{0pt plus 5cm}int stack\+::get (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{classstack_ab833ba6c5d70b213ca41e52281e43247}{}\label{classstack_ab833ba6c5d70b213ca41e52281e43247}
+Получение верхнего элемента стека \begin{DoxyReturn}{Возвращает}
+Значение верхного элемента стека 
+\end{DoxyReturn}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{stack_8h}{stack.\+h}\end{DoxyCompactItemize}
